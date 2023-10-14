@@ -11,7 +11,7 @@ In one move, you can scoop up to c
  grams of water from any vessel and pour it into the other vessel. Note that the mass of water poured in one move does not have to be an integer.
 
 What is the minimum number of moves required to make the masses of water in the vessels equal? Note that you cannot perform any actions other than the described moves.  
-
+***
 **input:**
 Each test contains multiple test cases. The first line contains the number of test cases t
  (1≤t≤1000
@@ -22,10 +22,10 @@ Each test case consists of a single line containing three integers a
 , and c
  (1≤a,b,c≤100
 ) — the mass of water in the vessels and the capacity of the cup, respectively.  
-
+***
 **output:**
 For each test case, output a single number — the minimum number of moves required to make the masses of water in the vessels equal. It can be shown, that it is always possible.  
-
+***
 ### sample:
 t=6
 |a、b|c|output|
@@ -36,7 +36,7 @@ t=6
 |17、21|100|1|
 |1、100|1|50|
 |97、4|3|16|
-
+***
 ## note
 In the first test case, only one move is enough: if we pour 2
  grams of water from the second vessel into the first one, both vessels will contain 5
@@ -62,6 +62,7 @@ Note that this is not the only way to equalize the vessels in 3
 
 In the third example test case, the vessels initially contain the same amount of water, so no moves are needed. The answer is 0
 .  
+***
 ## 解題
 略
 ## 程式碼  
