@@ -1,5 +1,7 @@
 # E - Channel
 ## 題目
+[題目連結](https://vjudge.net/contest/587230#problem/D)  
+***
 Petya is an administrator of a channel in one of the messengers. A total of n
  people are subscribed to his channel, and Petya is not considered a subscriber.
 
@@ -10,13 +12,14 @@ After this, Petya starts monitoring the number of subscribers online. He consecu
  notifications of the form `"a subscriber went offline"` or `"a subscriber went online"`. **Petya does not know which exact subscriber goes online or offline**. It is guaranteed that such a sequence of notifications could have indeed been received.
 
 Petya wonders if all of his subscribers have read the new post. Help him by determining one of the following:
-
+***
 * it is impossible that all n
  subscribers have read the post;
 * it is possible that all n
  subscribers have read the post;
 * it is guaranteed that all n
  subscribers have read the post.
+***
 **input:**
   Each test contains multiple test cases. The first line contains the number of test cases t
  (1≤t≤500
@@ -34,11 +37,12 @@ The second line of each test case contains a string of length q
 , consisting of characters '+' and '-'. The i
 -th of these characters is '+', if the i
 -th notification tells that a subscriber goes online, and it is '-' otherwise.  
+***
 **output:**
 For each test case, output a single line: `YES` if all n
  subscribers are guaranteed to have read the post, `NO` if it is impossible for all n
  subscribers to have read the post, and `MAYBE` otherwise.  
-
+***
  ### sample:
  t=4
  |subs|initial online number|notifications number|string|output|
@@ -47,7 +51,7 @@ For each test case, output a single line: `YES` if all n
  |5|2|3|+--|NO|
  |5|4|2|-+|MAYBE|
  |5|0|7|++++-++|YES|
-
+***
  ### note
  In the first test case, there are 5
  out of 5
@@ -61,9 +65,10 @@ In the third test case, on the one hand, the same person may have gone offline a
  subscribers have read the post), on the other hand, the last notification may have told that the fifth subscriber has gone online (in this case all subscribers have read the post). We cannot deduce which of the two holds, so the answer is "MAYBE".
 
 In the fourth test case, there have to be five subscribers online after all the notifications. All of them will read the post, so the answer is "YES"  
-
+***
 ## 解題
 暫無
+***
 ## 程式碼
 我婆真香!!:
 ![](https://github.com/archie0732/CPEB1012/blob/main/picture1/655329.png)
