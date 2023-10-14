@@ -63,7 +63,71 @@ In the third test case, on the one hand, the same person may have gone offline a
 In the fourth test case, there have to be five subscribers online after all the notifications. All of them will read the post, so the answer is "YES"  
 
 ## 解題
-略
+暫無
 ## 程式碼
 我婆真香!!:
 ![](https://github.com/archie0732/CPEB1012/blob/main/picture1/655329.png)
+[點我進入](https://github.com/archie0732/CPEB1012/blob/main/E/E_Channel.cpp)
+```cpp
+/**
+ * channel
+ * @author 綾華的狗
+ * @link https://codeforces.com/problemset/problem/1863/A
+ */
+#include <iostream>
+#include <vector>
+#define ll long long
+
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        ll sub, online, no, read, flag = 0;
+        string s;
+        cin >> sub >> online >> no;
+        cin >> s;
+        if (sub == online)
+        {
+            cout << "YES" << endl;
+            continue;
+        }
+        read = online;
+        for (ll i = 0; i < no; i++)
+        {
+            if (s[i] == '+')
+            {
+                read++;
+                online++;
+            }
+            else
+            {
+                read--;
+            }
+            if (read == sub)
+            {
+                flag = 1; // mark
+                break;
+            }
+        }
+        if (flag == 1)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            if (online >= sub)
+            {
+                cout << "MAYBE" << endl;
+            }
+            else
+                cout << "NO" << endl;
+        }
+    }
+
+    return 0;
+}
+```
