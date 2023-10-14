@@ -24,4 +24,7 @@
 
 * [點我進入](https://github.com/archie0732/CPEB1012/tree/main/F/README.md)
 
+### 其他
+* [點我進入](https://youtu.be/dQw4w9WgXcQ?si=_2wvOW5OQ1ysvlvj)
+
 ![](https://github.com/archie0732/CPEB1012/blob/main/picture1/ayaka.jpg)
