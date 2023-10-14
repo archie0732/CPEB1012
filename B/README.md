@@ -1,4 +1,5 @@
 # B - Compare T-Shirt Sizes
+[題目連結](https://vjudge.net/contest/587230#problem/B)  
 ## 題目  
 Two T-shirt sizes are given: a
  and b
