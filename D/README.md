@@ -91,6 +91,7 @@ In the third test case, you can make it to room 299
 ## 程式碼
 ![](https://github.com/archie0732/CPEB1012/blob/main/picture1/5467cb0da93ac9858a7a43ef7780130194d96b3b.jpg1256w_1260h_!web-article-pic.jpg)  
 
+[點我進入](https://github.com/archie0732/CPEB1012/blob/main/D/D_The_Corridor_or_There_and_Back_Again.cpp)
 
 ```cpp
 #include <iostream>
