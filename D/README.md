@@ -1,5 +1,6 @@
 # D - The Corridor or There and Back Again
 ## 題目
+[題目連結](https://vjudge.net/contest/587230#problem/C)  
 You are in a corridor that extends infinitely to the right, divided into square rooms. You start in room 1
 , proceed to room k
 , and then return to room 1
@@ -15,6 +16,7 @@ Additionally, there are n
 . Once a trap is activated, you cannot enter or exit a room with that trap.  
 ![](https://github.com/archie0732/CPEB1012/blob/main/picture1/2023-10-14%20200844.png)  
 A schematic representation of a possible corridor and your path to room k
+***
  and back.<br>   
  <br>
  Determine the maximum value of k
@@ -22,7 +24,7 @@ A schematic representation of a possible corridor and your path to room k
  to room k
  and then return to room 1
  safely.
-
+***
 For instance, if n=1
  and d1=2,s1=2
 , you can proceed to room k=2
@@ -34,6 +36,7 @@ For instance, if n=1
 , but the activated trap would block you). Any larger value for k
  is also not feasible. Thus, the answer is k=2
 .  
+***
 **input:**  
 The first line of the input contains an integer t
  (1≤t≤1000
@@ -53,11 +56,13 @@ The following n
  strictly before si
  seconds have passed since entering this room). It's possible for multiple traps to occupy a single room (the values of di
  can be repeated).  
+ ***
  **output:**  
  For each test case, print the maximum value of k
  that allows you to travel to room k
  and return to room 1
  without encountering an active trap  
+ ***
  ### Sample 1
  t=7
  |trap number|trap distance |active second|output|
@@ -69,6 +74,7 @@ The following n
  |2|10<br>1|1<br>18|9|
  |2|1<br>1|1<br>2|1|
  |3|1<br>1<br>1|3<br>1<br>3|1|  
+ ***
  ### note
  The first test case is explained in the problem statement above.
 
@@ -86,8 +92,10 @@ In the second test case, the second trap prevents you from achieving k≥6
 In the third test case, you can make it to room 299
  and then immediately return to room 1
 .  
+***
 ## 解題
-略  
+暫無
+***
 ## 程式碼
 ![](https://github.com/archie0732/CPEB1012/blob/main/picture1/5467cb0da93ac9858a7a43ef7780130194d96b3b.jpg1256w_1260h_!web-article-pic.jpg)  
 
