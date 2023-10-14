@@ -23,3 +23,5 @@
 ### 點我進入
 
 * [點我進入]
+
+![](https://github.com/archie0732/CPEB1012/blob/main/picture1/ayaka.jpg)
