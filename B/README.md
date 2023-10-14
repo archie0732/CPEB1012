@@ -26,7 +26,7 @@ For example:
 * XXL = XXL
 * XXXXXS < M
 * XL > XXXS    
-
+***
 **input:**  
 The first line of the input contains a single integer t
  (1≤t≤104
@@ -36,10 +36,12 @@ Each test case consists of one line, in which a
  and b
  T-shirt sizes are written. The lengths of the strings corresponding to the T-shirt sizes do not exceed 50
 . It is guaranteed that **`all sizes are correct`**.  
+***
 **output:**  
 For each test case, print on a separate line the result of comparing a
  and b
  T-shirt sizes (lines "<", ">" or "=" without quotes).  
+ ***
  ### sample
  t=6  
  |T-Shirt Sizes(1)|T-Shirt Sizes(2)|output|
@@ -50,6 +52,7 @@ For each test case, print on a separate line the result of comparing a
  |XXL |XXL|=|
  |XXXXXS |M|>|
  |L | M|>|  
+ ***
  ## 解題
  **要先了解以下狀況**
  >1. `L`**永遠大於** `M`或`S`(**不管加了幾個X**)
@@ -63,12 +66,12 @@ For each test case, print on a separate line the result of comparing a
 >1. 看兩個是否相同大小
 >2. 比尾號(尾號不同就略`3.`)
 >3. 比`X`
+***
 
 ## 程式碼
 我婆真香(兩個都是):   
 ![](https://github.com/archie0732/CPEB1012/blob/main/picture1/yaemiko001.jpg)  
 [點我進入](https://github.com/archie0732/CPEB1012/blob/main/B/B_Compare_T_Shirt_Sizes.cpp)  
-
 `cpp:`
 ```cpp
 #include <iostream>
