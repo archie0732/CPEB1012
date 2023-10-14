@@ -20,7 +20,7 @@
 
 * [點握進入](https://github.com/archie0732/CPEB1012/tree/main/E/README.md)
 
-### 點我進入
+### 第F題
 
 * [點我進入](https://github.com/archie0732/CPEB1012/tree/main/F/README.md)
 
