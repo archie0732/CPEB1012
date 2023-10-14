@@ -1,5 +1,6 @@
 # F - Increasing and Decreasing
 [題目連結](https://vjudge.net/contest/587230#problem/F)
+***
 ## 題目
 You are given three integers x
 , y
@@ -25,6 +26,7 @@ Your task is to construct an array a
 If there is no such array a
 , print a single integer −1
 .  
+***
 **input:**  
 Each test contains multiple test cases. The first line contains the number of test cases t
  (1≤t≤1000
@@ -35,6 +37,7 @@ The only line of each test case contains three integers x
 , n
  (1≤x<y≤1000,3≤n≤1000
 ).  
+***
 **output:**  
 For each test case, output n
  integers a1,a2,…,an
@@ -42,6 +45,7 @@ For each test case, output n
 
 **If there is no solution, print a single integer −1**
 .  
+***
 ### sample :
 t=3
 |x|y|n|output|
@@ -49,9 +53,10 @@ t=3
 |1|4|3|1 3 4|
 |1|3|3|-1|
 |100|200|4|100 150 180 200|
-
+***
 ### 解題
 暫無
+***
 ## 程式碼
 ![](https://github.com/archie0732/CPEB1012/blob/main/F/v0EMdcL.jpg)
 [點我進入](https://github.com/archie0732/CPEB1012/blob/main/F/F_Increasing_and_Decreasing.cpp)  
